@@ -8,21 +8,21 @@ class Discipline < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/orieg/discipline/releases/download/v0.14.4/discipline-aarch64-apple-darwin.tar.gz"
-      sha256 "39e1e2fd0c0c31eb103b6222c754f5b46a46790092572e7a72e29afb1c18cfe8"
+      url "https://github.com/orieg/discipline/releases/download/v0.15.0/discipline-aarch64-apple-darwin.tar.gz"
+      sha256 "266a7c402fa8c4270f7aa01bb5b22d265f5296f1b7d2090bb15c4b07c4dbe036"
     else
-      url "https://github.com/orieg/discipline/releases/download/v0.14.4/discipline-x86_64-apple-darwin.tar.gz"
-      sha256 "b5843af7408d6a292c041de98e6852e237ea39c084853c230f31bd460049f902"
+      url "https://github.com/orieg/discipline/releases/download/v0.15.0/discipline-x86_64-apple-darwin.tar.gz"
+      sha256 "50207a3bd41cedbe9ac42c776b7cc11b792533dd6a909f1e0867ded14cdc314f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/orieg/discipline/releases/download/v0.14.4/discipline-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5a76026598e7ddcb9787ae42b0deb1649df1a9e1c9d141935f71258428398fec"
+      url "https://github.com/orieg/discipline/releases/download/v0.15.0/discipline-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cd958d81588bc2bf9a2ec455c851e18f40daeb521e4451640d46ac9b250e79c8"
     else
-      url "https://github.com/orieg/discipline/releases/download/v0.14.4/discipline-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "264c3fe46f508ec28ea422a7357ab1cd585a5ff2bfbc35d4484a39c314dd5bf8"
+      url "https://github.com/orieg/discipline/releases/download/v0.15.0/discipline-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "accd41dc4ee0f2c61a582a31dbccecf46923b605c0d928e3dcdc1d9173d1c3c4"
     end
   end
 
