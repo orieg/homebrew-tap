@@ -6,28 +6,28 @@
 class Expanse < Formula
   desc "Judy-array digital tries in Rust, with a drop-in libjudy C ABI"
   homepage "https://github.com/orieg/expanse"
-  version "0.11.0"
+  version "0.11.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/orieg/expanse/releases/download/v0.11.0/expanse-0.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dd76d579455902aef3b6272f5034cd6d32b8162212f05b99a87764587b075e55"
+      url "https://github.com/orieg/expanse/releases/download/v0.11.1/expanse-0.11.1-aarch64-apple-darwin.tar.gz"
+      sha256 "febb7d008a86bf1dc65d42561523247cc38490dc513d6715bc1360cf01833b35"
     end
     on_intel do
-      url "https://github.com/orieg/expanse/releases/download/v0.11.0/expanse-0.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b0d673e0c08f4362360e83545291b9b97f6532ef7488dfc599c74f5608415c31"
+      url "https://github.com/orieg/expanse/releases/download/v0.11.1/expanse-0.11.1-x86_64-apple-darwin.tar.gz"
+      sha256 "8c95eaa4d405d7af28c0e31a3cdec6d6bdfda0ac44867247a735ffacb5a226f7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orieg/expanse/releases/download/v0.11.0/expanse-0.11.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2aed0abbe2a55945f5a7f76d534db327a6c85dd545606ec9ff3531117d6fc040"
+      url "https://github.com/orieg/expanse/releases/download/v0.11.1/expanse-0.11.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e0e9bfd7cbe4e885cf61e652c50d3647104fdce5bb39f01d7ab092253ffe1e2f"
     end
     on_intel do
-      url "https://github.com/orieg/expanse/releases/download/v0.11.0/expanse-0.11.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9cc9e34bdfc35c7b01902c3ca6c35e29e6fc27d38a3ec813d978655cb026ed4e"
+      url "https://github.com/orieg/expanse/releases/download/v0.11.1/expanse-0.11.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c1ce0714615559a78ed72673c13c346bb2f4a828d597d55b91e55c2610231918"
     end
   end
 
